@@ -8,7 +8,7 @@ const appium = {
   "appium:automationName": process.env.automationName,
   "appium:appPackage": process.env.appPackage,
   "appium:appActivity": process.env.appActivity,
-  "appium:app":path.join(process.cwd(),process.env.app),
+  // "appium:app":path.join(process.cwd(),process.env.app),
   "appium:platformVersion": process.env.platformVersion,
 };
 
